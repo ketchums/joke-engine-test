@@ -8,6 +8,11 @@ Before testing this, please change the constant variable `API_ENDPOINT` to ensur
 
 Once this is done, everything should work as expected.
 
+## Notes
+
+I did want to extend the fetching part of the code to support multiple APIs through interfaces and polymorphism, but didn't want to go past the time given.
+
+Thanks.
 
 ## Tech Used
 
