@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Engine</title>
+    <link rel="stylesheet" href="/assets/css/bulma.min.css" type="text/css">
+</head>
+<body>
+    <div class="container mt-6">
+        <div class="columns">
+            <div class="column is-12">
+                <b>Joke Engine</b> <span style="float:right;"><span id="jokesCount">0</span> jokes fetched</span>
+                <hr>
+                <div class="field has-addons">
+                    <div class="control">
+                      <input id="fetchJokesAmount" class="input" type="text" value="1">
+                    </div>
+                    <div class="control">
+                      <button id="fetchJokesButton" class="button is-info">
+                        Fetch
+                      </button>
+                    </div>
+                  </div>
+                <hr>
+                <div id="jokesArea" class="mb-4">
+                    No jokes have been fetched yet, try fetching one.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/axios.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
